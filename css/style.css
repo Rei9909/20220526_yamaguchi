@@ -37,26 +37,26 @@ h2.text {
   font-family: 'Gloria Hallelujah', cursive;
   color: rgb(188, 67, 156);
   font-size: 50px;
-  margin: 100px 250px 0 ;
+  margin: 100px 20% 0 ;
 }
 
 .text-pickup {
   color: rgb(188, 67, 156);
   font-size: 21px;
-  margin: 80px 250px 0;
+  margin: 80px 20% 0;
 }
 
 .text-contents {
   color: rgba(66, 66, 66, 0.541);
   font-size: 13px;
-  margin: 10px 250px 0;
+  margin: 10px 20% 0;
 }
 
 .news {
-  margin-left: 290px;
+  margin: 0 auto;
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(66, 66, 66, 0.541);
-  width: 700px;
+  width: 50%;
 }
 
 .news-logo {
@@ -72,14 +72,12 @@ h2.text {
   color: rgba(66, 66, 66, 0.541);
   font-weight: bold;
   font-size: 20px;
-  width: 700px;
   border-bottom: 1px solid rgba(66, 66, 66, 0.541);
 }
 
 
 .news-item {
   border-bottom: 0.5px solid rgba(66, 66, 66, 0.541);
-  width: 700px;
   color: rgba(66, 66, 66, 0.541);
   line-height: 50px;
   font-size: 15px;
@@ -98,31 +96,31 @@ h2.text {
   background-color: rgba(220, 219, 219, 0.541);
   height: 430px;
   margin-top: 80px;
+  padding: 60px 0;
 }
 
 .About-logo {
-  padding-top: 60px;
   color: rgb(188, 67, 156);
   font-family: 'Gloria Hallelujah', cursive;
-  margin-left: 50%;
+  text-align: center;
 }
 
 .About-ttl {
   margin-top: 15px;
-  margin-left: 42%;
+  text-align: center;
   font-weight: bold;
   font-size: 20px;
   color: rgba(66, 66, 66, 0.541);
 }
 
 .About-main {
-  margin-top: 30px;
-  margin-left: 200px;
+  margin: 30px auto;
+  width: 70%;
 }
 
 .About-text {
   color: rgba(66, 66, 66, 0.541);
-  width: 33%;
+  width: 40%;
   font-size: 14.5px;
   font-weight: bold;
   line-height: 25px;
@@ -134,13 +132,13 @@ h2.text {
 }
 
 img.About-img {
-  width: 350px;
+  width: 40%;
   height: 250px;
-  margin-left: 150px;
+  float: right;
 }
 
 .service {
-  margin-left: 200px;
+  margin-left: 20%;
 }
 
 .service-logo {
@@ -158,10 +156,10 @@ img.About-img {
 
 .service-main {
   display: grid;
-  grid-template-rows: 170px 170px;
-  grid-template-columns: 400px 400px;
+  grid-template-rows: 55% 55%;
+  grid-template-columns: 40% 40%;
   color: white;
-  margin-top: 40px;
+  margin: 40px auto;
 }
 
 .service-item1 {
@@ -171,15 +169,15 @@ img.About-img {
 }
 
 img.service-img1 {
-  width: 120px;
-  height: 120px;
-  margin-top: 35px;
-  margin-left: 35%;
+  width: 40%;
+  height:40%;
+  margin-top: 25px;
+  margin-left: 30%;
 }
 
 .service-ttl1 {
   margin: 15px 0;
-  margin-left: 170px;
+  text-align: center;
   font-size: 17px;
 }
 
@@ -197,10 +195,10 @@ img.service-img1 {
 }
 
 img.service-img2 {
-  width: 120px;
-  height: 120px;
+  width: 35%;
+  height: 70%;
   float: left;
-  margin: 20px 10px 0 10px;
+  margin-top: 5%;
 }
 
 .service-ttl2 {
@@ -222,10 +220,10 @@ img.service-img2 {
 }
 
 img.service-img3 {
-  width: 120px;
-  height: 120px;
+  width: 35%;
+  height: 70%;
   float: left;
-  margin: 20px 10px 0 10px;
+  margin-top: 5%;
 }
 
 .service-ttl3 {
@@ -247,13 +245,13 @@ img.service-img3 {
 }
 
 .blog-logo {
-  margin: 50px 0 20px 200px;
+  margin: 50px 0 20px 20%;
   color: rgb(188, 67, 156);
   font-family: 'Gloria Hallelujah', cursive;
 }
 
 .blog-ttl {
-  margin-left: 200px;
+  margin-left: 20%;
   font-weight: bold;
   font-size: 20px;
   color: rgba(66, 66, 66, 0.541);
@@ -268,7 +266,7 @@ img.service-img3 {
 }
 
 .card {
-  width: 250px;
+  width: 30%;
   background-color: white;
   border-radius: 15px;
 }
@@ -279,7 +277,7 @@ img.service-img3 {
 
 img.card-img {
   display: block;
-  width: 250px;
+  width: 100%;
   height: auto;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -320,7 +318,7 @@ img.card-img {
   justify-content: space-between;
   font-size: 13px;
   width: 85%;
-  margin-left: 15px;
+  margin-left: 5%;
   margin-bottom: 15px;
 }
 
@@ -337,23 +335,26 @@ img.card-img {
 }
 
 .company-logo {
-  margin: 70px 0 20px 300px;
+  margin: 70px 0 20px 23%;
   color: rgb(188, 67, 156);
   font-family: 'Gloria Hallelujah', cursive;
 }
 
 .company-ttl {
-  margin-left: 300px;
+  margin-left: 23%;
+  margin-bottom: 30px;
   font-weight: bold;
   font-size: 20px;
   color: rgba(66, 66, 66, 0.541);
 }
 
 .company-table {
-  margin: 40px 0 50px 300px;
+  margin: 0 auto;
   line-height: 40px;
   color: rgba(66, 66, 66, 0.541);
   border-collapse: collapse;
+  width: 55%;
+  margin-bottom: 50px;
 }
 
 table tr {
@@ -362,7 +363,7 @@ table tr {
 
 table th {
   background-color: rgba(220, 219, 219, 0.541);
-  width: 180px;
+  width: 30%;
   text-align: left;
   padding-left: 20px;
   font-size: 14px;
@@ -370,7 +371,7 @@ table th {
 }
 
 table td {
-  width: 450px;
+  width: 70%;
   padding-left: 20px;
 }
 .photo {
@@ -424,15 +425,13 @@ table td {
 }
 
 .form-submit {
-  margin-top: 20px;
-  margin-bottom: 60px;
   background: -moz-linear-gradient(top, rgb(210, 115, 185), rgb(249, 109, 212));
   background: -webkit-linear-gradient(top, rgb(210, 115, 185), rgb(249, 109, 212));
   background: linear-gradient(to bottom, rgb(210, 115, 185), rgb(249, 109, 212));
   color: white;
   line-height: 70px;
   width: 250px;
-  margin-left: 40%;
+  margin: 20px auto;
   border-radius: 30px;
   box-shadow: 0 5px 3px black;
 }
@@ -445,10 +444,11 @@ table td {
   width: 20px;
   height: 20px;
   display: inline-block;
-  margin: 0 25px;
+  margin: 0 5%;
 }
 
 .footer-text {
+  margin-top: 50px;
   background-color: rgba(220, 219, 219, 0.541);
   color: rgba(66, 66, 66, 0.541);
   text-align: center;
